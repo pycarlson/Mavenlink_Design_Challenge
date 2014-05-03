@@ -10,14 +10,10 @@
 }
 
 .carousel-inner {
-  width: 480px;
-  height: 175px;
+  max-width: 480px;
+  max-height: 175px;
   position: relative;
   overflow: visible;
-}
-
-.carousel-inner li img {
-  width: 100%;
 }
 
 .carousel-inner li {
