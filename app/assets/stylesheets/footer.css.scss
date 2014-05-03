@@ -1,0 +1,25 @@
+footer {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 0 30px 0;
+  background-color: #333333;
+  color: #FFFFFF;
+  .inner-foot {
+    margin: 0 auto;
+    width: 960px;
+    ul {
+      float: left;
+      li {
+        list-style: none;
+        line-height: 20px;
+        a {
+          color: #bcb8b8;
+          text-decoration: none;
+        }
+      } 
+      li > ul > li {
+        display: inline;
+      }
+    }
+  }
+}

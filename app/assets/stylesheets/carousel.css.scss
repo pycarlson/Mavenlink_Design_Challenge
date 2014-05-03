@@ -1,0 +1,30 @@
+#doggy-carousel {
+  position: absolute;
+  height: 175px;
+  position: relative;
+  width: 480px;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.carousel-inner {
+  width: 480px;
+  height: 175px;
+  position: relative;
+  overflow: visible;
+}
+
+.carousel-inner li img {
+  width: 100%;
+}
+
+.carousel-inner li {
+  display: none !important;
+  position: absolute;
+}
+
+.carousel-inner .active {
+  display: block !important;
+}
