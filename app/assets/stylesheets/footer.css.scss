@@ -5,13 +5,14 @@ footer {
   background-color: #333333;
   color: #FFFFFF;
   .inner-foot {
+    padding-left: 20px;
     margin: 0 auto;
     width: 960px;
     ul {
       float: left;
       li {
         list-style: none;
-        line-height: 20px;
+        line-height: 25px;
         a {
           color: #bcb8b8;
           text-decoration: none;

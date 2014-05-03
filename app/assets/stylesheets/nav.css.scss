@@ -41,5 +41,30 @@ nav {
   }
 }
 
+#nav-icon {
+  display: none; 
+  padding:10px;
+  float: right;
+}
+
+.sm-nav {
+  background-color: green;
+  position: absolute; 
+  z-index: 111;
+  width:400px;
+  
+  ul {
+  clear: both;
+    
+    margin: 0;
+    padding: 20px;
+    li {
+      display: block; 
+      width: 100%;
+      padding: 10px 0px;
+      border-bottom:1px solid #CCCCCC;
+    }
+  }
+}
 
 

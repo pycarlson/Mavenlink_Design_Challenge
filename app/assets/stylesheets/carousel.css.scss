@@ -21,6 +21,10 @@
   position: absolute;
 }
 
+.carousel-inner li:first-child {
+  background: url('cucumber_bowser_bg.jpg') no-repeat 0 0;
+}
+
 .carousel-inner .active {
   display: block !important;
 }

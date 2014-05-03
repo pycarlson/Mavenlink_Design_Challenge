@@ -7,7 +7,7 @@
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 750px) and (max-width: 979px) { 
-body { 
+  body { 
     font-size:110%;
     margin: 0;
     .container {
@@ -29,7 +29,7 @@ body {
       width: 100% !important;
     }
   }
- 
+
   ul.spacer {
     display: none !important;
   }
@@ -56,30 +56,39 @@ body {
   }
   nav {
     height: 40px !important;
-  }
-
-  .inner-nav {
-    padding-top: 0px !important;
-    li {
-      margin-left: 10px !important;
+    .inner-nav {
+      padding-top: 0px !important;
+      li {
+        margin-left: 10px !important;
+      }
+    }
+    #nav-icon {
+      display: block !important;
     }
   }
-  #nav-icon {
-    display: block !important;
+  .carousel {
+    width: 300px !important;
+    height: 300px !important;
+    overflow: visible;
+    .inner-carousel {
+      width: 300px !important;
+      height: 300px !important;
+    }
+    img {
+      display: none;
+    }
   }
+  
   footer {
-
     .span4 {
       width: 100% !important;
-      height: 175px !important;
     }
-    li {
-      height: 25px !important;
+    ul {
+      margin: 0;
+      
+      li {
+        margin-bottom: 10px !important;
+      }
     }
-
-
-  }
-  .hide-on-phone {
-    display: none !important;
   }
 }
