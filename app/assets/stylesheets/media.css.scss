@@ -78,6 +78,14 @@
       display: none;
     }
   }
+  #demo-ask {
+    height: 160px !important;
+    div {
+      width: 100%;
+      margin: 20px 0 40px 0;
+    }
+  }
+
   
   footer {
     .span4 {
@@ -85,7 +93,7 @@
     }
     ul {
       margin: 0;
-      
+      padding-left: 0;
       li {
         margin-bottom: 10px !important;
       }

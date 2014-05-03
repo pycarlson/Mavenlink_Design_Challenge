@@ -7,35 +7,30 @@ nav {
   color: #FFFFFF;
   .inner-nav {
     display: none;
-    padding-top: 10px;
+    /*padding-top: 10px;*/
     width: 960px;
     margin: 0 auto;
     img {
       float: left;
-      margin-right: 75px;
-      margin-top: -5px;
+      margin-right: 150px;
       display: inline-block;
     }
     ul {
-      height: 30px;
       margin: 0;
-      margin-top: 25px;
       padding: 0;
+      padding-top: 14px;
       li {
         float: left;
-        margin-right: 20px;
+        margin-right: 60px;
         display: inline-block;
         a {
           color: #FFFFFF;
           text-decoration: none;
         }
-        button {
-          width: 80px;
-          height: 30px;
-          border-radius: 5px;
-          background-color: #FFFFFF;
-          color: #444444;
-        }
+
+      }
+      li:last-of-type {
+        margin: 0;
       }
     }
   }
@@ -44,9 +39,10 @@ nav {
 #nav-icon {
   display: none; 
   padding:10px;
-  float: right;
 }
-
+.nav-last {
+  margin-right: 0px !important;
+}
 .sm-nav {
   background-color: green;
   position: absolute; 
@@ -54,8 +50,6 @@ nav {
   width:400px;
   
   ul {
-  clear: both;
-    
     margin: 0;
     padding: 20px;
     li {

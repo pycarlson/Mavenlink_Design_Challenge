@@ -8,11 +8,15 @@ footer {
     padding-left: 20px;
     margin: 0 auto;
     width: 960px;
+    h3:nth-of-type(3) {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
     ul {
       float: left;
       li {
+        font-size: 12px;
         list-style: none;
-        line-height: 25px;
         a {
           color: #bcb8b8;
           text-decoration: none;
@@ -20,6 +24,10 @@ footer {
       } 
       li > ul > li {
         display: inline;
+      }
+      span {
+        font-weight: bold;
+        font-size: 18px;
       }
     }
   }
