@@ -39,7 +39,10 @@
   }
   nav {
     height: 70px !important;
-    .inner-nav {
+    .sm-nav {
+      height: 300px;
+      position: relative !important;
+      clear: right !important;
       padding-top: 0px !important;
       li {
         margin-left: 10px !important;

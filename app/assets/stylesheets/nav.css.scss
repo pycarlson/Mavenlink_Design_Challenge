@@ -44,15 +44,17 @@ nav {
 #nav-icon {
   display: none; 
   padding:10px;
-  float: right;
+  /*float: right;*/
 }
+
 .nav-last {
   margin-right: 0px !important;
 }
+
 .sm-nav {
   background-color: #7BAA33;
-  position: absolute;
-  width:400px;
+  /*position: absolute;*/
+  height:400px;
   img {
     display: block;
   }
@@ -67,4 +69,8 @@ nav {
   }
 }
 
-
+.outer-nav {
+  height: 200px;
+  width: 100%;
+  background-color: #cccccc;
+}

@@ -45,7 +45,6 @@ article {
 
 section:first-of-type {
   position: relative;
-  margin-top: 80px;
   background: url('king2.jpg') no-repeat -10px 0;
   width: 100%;
   height: 523px;
@@ -143,11 +142,11 @@ section:first-of-type {
     text-decoration: none;
   }
   span {
+    position: absolute;
     font-size: 10px;
     font-weight: bold;
-    position: absolute;
-    right: 15px;
     top: 70px;
+    right: 332px;
   }
 } 
 
