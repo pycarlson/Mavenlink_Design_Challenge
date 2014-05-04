@@ -41,7 +41,7 @@
     margin-top: 0 !important;
   }
   nav {
-
+    padding: 8px !important;
     position: relative !important;
     height: 70px !important;
 
@@ -111,22 +111,22 @@
       margin: 0 auto !important;
     }
   }
-  
+  section:first-of-type {
+    height: 320px !important;
+    overflow: hidden;
+    .copy-box-1 {
+      left: 8% !important;
+      top: 50px !important;
+    }
+  }
   #product-carousel {
     width: 300px !important;
     height: 400px !important;
     #doggy-carousel {
-      width: 300px !important;
-      height: 400px !important;
-      li {
-        width: 300px !important;
-        height: 400px !important;
-      }
       .mobile-add {
         visibility: visible;
       }
       .mobile-remove {
-
         display: none !important ;
       }
       .mobile-remove:active {
