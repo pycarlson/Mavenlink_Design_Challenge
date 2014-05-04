@@ -37,24 +37,35 @@
       width: 100% !important;
     }
   }
+
   nav {
+
     position: relative !important;
     height: 70px !important;
+
     .sm-nav {
       position: relative !important;
       clear: right !important;
       padding: 0px !important;
+
       ul {
+
         padding: 0 !important;
+        a {
+          text-align: center !important;
         li {
           margin-left: 10px !important;
         }
+      }
       }
     }
     #nav-icon {
       display: block !important;
     }
   }
+  .outer-nav {
+      height: 100px !important;
+    }
   #demo-ask {
     .container {
       height: 100px;
