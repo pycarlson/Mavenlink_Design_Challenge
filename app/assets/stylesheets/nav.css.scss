@@ -13,6 +13,7 @@ nav {
     padding: 10px 0;
     width: 960px;
     margin: 0 auto;
+    font-size: 15px;
     img {
       float: left;
       margin-right: 196px;
@@ -43,21 +44,22 @@ nav {
 #nav-icon {
   display: none; 
   padding:10px;
+  float: right;
 }
 .nav-last {
   margin-right: 0px !important;
 }
 .sm-nav {
   background-color: #7BAA33;
-  position: absolute; 
-  z-index: 111;
+  position: absolute;
   width:400px;
-  
+  img {
+    display: block;
+  }
   ul {
     margin: 0;
     padding: 20px;
     li {
-      display: block; 
       width: 100%;
       padding: 10px 0px;
       border-bottom:1px solid #CCCCCC;
