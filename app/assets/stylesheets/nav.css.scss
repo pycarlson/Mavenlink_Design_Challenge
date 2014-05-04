@@ -44,7 +44,7 @@ nav {
 #nav-icon {
   display: none; 
   padding:10px;
-  /*float: right;*/
+  float: right;
 }
 
 .nav-last {
@@ -52,19 +52,23 @@ nav {
 }
 
 .sm-nav {
+  position: absolute;
   background-color: #7BAA33;
-  /*position: absolute;*/
-  height:400px;
+  height: 400px;
+  z-index: 11111;
   img {
     display: block;
   }
   ul {
     margin: 0;
     padding: 20px;
+    text-align: right;
+    width: 100%;
     li {
       width: 100%;
       padding: 10px 0px;
       border-bottom:1px solid #CCCCCC;
+
     }
   }
 }
