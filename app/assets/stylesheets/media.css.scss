@@ -38,6 +38,7 @@
     }
   }
   nav {
+    position: relative !important;
     height: 70px !important;
     .sm-nav {
       height: 300px;
@@ -90,8 +91,10 @@
     margin: 0;
     .container {
       width: 100% !important;
+
     }
   }
+  
   #product-carousel {
     width: 300px !important;
     height: 400px !important;
