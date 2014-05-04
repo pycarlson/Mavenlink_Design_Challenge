@@ -41,12 +41,14 @@
     position: relative !important;
     height: 70px !important;
     .sm-nav {
-      height: 300px;
       position: relative !important;
       clear: right !important;
-      padding-top: 0px !important;
-      li {
-        margin-left: 10px !important;
+      padding: 0px !important;
+      ul {
+        padding: 0 !important;
+        li {
+          margin-left: 10px !important;
+        }
       }
     }
     #nav-icon {

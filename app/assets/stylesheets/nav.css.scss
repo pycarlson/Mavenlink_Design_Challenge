@@ -53,18 +53,12 @@ nav {
 .sm-nav {
   position: absolute;
   background-color: #7BAA33;
-  height: 400px;
   z-index: 11111;
   img {
     display: block;
   }
   ul {
     margin: 0;
-    /*li {
-      width: 100%;
-      padding: 10px 0px;
-      border-bottom:1px solid #CCCCCC;
-    }*/
     a {
       display: block;
         width: 100%;
