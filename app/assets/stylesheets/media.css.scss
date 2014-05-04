@@ -87,6 +87,9 @@
       display: none;
     }
   }
+  #middle-box div:nth-of-type(2) img {
+    margin-right: 30px !important;
+  }
   #demo-ask {
     width: 100% !important;
     height: 160px !important;

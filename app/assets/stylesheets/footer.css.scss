@@ -5,17 +5,28 @@ footer {
   background-color: #333333;
   color: #FFFFFF;
   .inner-foot {
+
     padding-left: 20px;
     margin: 0 auto;
     width: 960px;
+
     h3:nth-of-type(3) {
       margin-bottom: 0;
       padding-bottom: 0;
     }
+    .spacer {
+      width: 160px;
+      height: 160px;
+      display: inline-block;
+    }
     ul {
       float: left;
+      width: 300px;
+      padding-left: 0;
+      &:last-of-type {
+        width: 200px;
+      }
       li {
-        font-size: 12px;
         list-style: none;
         a {
           color: #bcb8b8;
@@ -31,4 +42,7 @@ footer {
       }
     }
   }
+
+
 }
+
