@@ -75,7 +75,7 @@ nav {
   height: 110px;
   width: 100%;
   background-color: #FFFFFF;
-  padding-top: 100px;
+  padding-top: 85px;
   .container {
     width: 1000px;
     height: 100%;
@@ -91,6 +91,7 @@ nav {
         display: inline-block;
         width: 60px;
         height: 60px;
+        overflow: hidden;
         background: url('main.png') no-repeat;
       }
       figcaption {
@@ -100,5 +101,21 @@ nav {
   }
 }
 #advan-man {
-  background-position: 0 -400px;
+  background-position: 0 -2511px;
+}
+
+#finan-man {
+  background-position: 0 -2398px;
+}
+
+#time-man {
+  background-position: 0 -2238px;
+}
+
+#res-man {
+  background-position: 0 -1156px;
+}
+
+#anal-man {
+  background-position: 0 -1889px;
 }
