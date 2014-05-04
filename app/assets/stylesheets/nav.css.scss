@@ -63,16 +63,42 @@ nav {
     margin: 0;
     a {
       display: block;
-        width: 100%;
-        background-color: #ffffff;
-        height: 40px;
-        margin-bottom: 10px;
-      }
+      width: 100%;
+      background-color: #ffffff;
+      height: 40px;
+      margin-bottom: 10px;
+    }
   }
 }
 
 .outer-nav {
-  height: 200px;
+  height: 110px;
   width: 100%;
-  background-color: #cccccc;
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  .container {
+    width: 1000px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    figure {
+      text-align: center;
+      width: 140px;
+      display: inline-block;
+      margin: 0 20px;
+      line-height: 20px;
+      i {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background: url('main.png') no-repeat;
+      }
+      figcaption {
+        font-weight: 400;
+      }
+    }
+  }
+}
+#advan-man {
+  background-position: 0 -400px;
 }
