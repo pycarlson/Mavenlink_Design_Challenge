@@ -100,10 +100,11 @@
 /* Landscape phones and down */
 @media (max-width: 480px) { 
   body { 
-    font-size:120%;
+    font-size:100%;
     margin: 0;
     .container {
       width: 100% !important;
+
 
     }
   }
