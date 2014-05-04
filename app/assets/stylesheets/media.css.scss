@@ -37,7 +37,9 @@
       width: 100% !important;
     }
   }
-
+  article section:first-of-type {
+    margin-top: 0 !important;
+  }
   nav {
 
     position: relative !important;
@@ -66,10 +68,7 @@
   }
 
   .outer-nav {
-      height: 100px !important;
-      figure {
-        display: block !important;
-      }
+      display: none !important;
     }
   #demo-ask {
     .container {

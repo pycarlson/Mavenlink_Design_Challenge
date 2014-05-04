@@ -72,10 +72,12 @@ nav {
 }
 
 .outer-nav {
+  position: fixed;
+  z-index: 11111;
+  top: 80px;
   height: 110px;
   width: 100%;
   background-color: #EBEBEB;
-  padding-top: 85px;
   .container {
     width: 1000px;
     height: 100%;
@@ -101,7 +103,7 @@ nav {
   }
 }
 #advan-man {
-  background-position: 0 -2511px;
+  background-position: 0 -2512px;
 }
 
 #finan-man {
@@ -113,7 +115,7 @@ nav {
 }
 
 #res-man {
-  background-position: 0 -1554px;
+  background-position: 0 -1556px;
 }
 
 #anal-man {
