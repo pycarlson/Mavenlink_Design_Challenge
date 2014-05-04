@@ -59,12 +59,17 @@
       }
       }
     }
+
     #nav-icon {
       display: block !important;
     }
   }
+
   .outer-nav {
       height: 100px !important;
+      figure {
+        display: block !important;
+      }
     }
   #demo-ask {
     .container {
