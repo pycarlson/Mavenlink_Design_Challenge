@@ -57,14 +57,12 @@
     background: url('king3.jpg') no-repeat -400px 0 !important;
   }
   nav {
-    padding: 8px !important;
     position: relative !important;
     height: 70px !important;
     .sm-nav {
       position: relative !important;
       clear: right !important;
       padding: 0px !important;
-
       ul {
 
         padding: 0 !important;
@@ -128,13 +126,18 @@
   }
  
   section:first-of-type {
-    background: url('king3.jpg') no-repeat -560px -40px !important;
-
+    background: url('king2.jpg') no-repeat -560px -40px !important;
     height: 320px !important;
     overflow: hidden;
     .copy-box-1 {
       left: 5% !important;
       top: 50px !important;
+      h1 {
+        font-size: 20px !important;
+      }
+      p {
+        font-size: 18px !important;
+      }
     }
   }
   #product-carousel {

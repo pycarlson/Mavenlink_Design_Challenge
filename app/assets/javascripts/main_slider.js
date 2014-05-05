@@ -1,22 +1,22 @@
 var Slider = {
-  timeInterval: 3000,
+  timeInterval: 1500,
   slides: $('.carousel-inner li')
 };
 
 $(document).ready(function () {
   var slideTimer = setInterval(function () {
     Slider.nextSlide();
-  }, 2000);
+  }, 5000);
 });
 
 Slider.nextSlide = function () {
   var $activeSlide = $('.carousel-inner li.active');
   Slider.inactivateSlides();
-  $activeSlide.next().fadeIn(1500).addClass('active');
+  $activeSlide.next().fadeIn(Slider.timeInterval).addClass('active');
 
   if ($activeSlide.index() === Slider.slides.length - 1) {
     Slider.inactivateSlides();
-    Slider.slides.first().fadeIn(1500).addClass('active');
+    Slider.slides.first().fadeIn(Slider.timeInterval).addClass('active');
   };
 }
 
