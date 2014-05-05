@@ -42,6 +42,13 @@ article {
       width: 375px;
       height: 200px;
       background-color: rgba(255,255,255,.8);
+      #mav-logo {
+          display: none;
+          width: 230px;
+          height: 45px;
+          background: url('main.png') no-repeat 0 -2358px;
+          overflow: hidden;
+        }
       hgroup {
         h1 {
           font-size: 26px;
@@ -62,7 +69,7 @@ article {
   }
 
   #middle-box {
-    padding: 20px 0px 40px 0px;
+    padding: 0px 0px 40px 0px;
     width: 90%;
     margin: 0 auto;  
     #product-carousel {

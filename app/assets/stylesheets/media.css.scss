@@ -134,11 +134,12 @@
     height: 450px !important;
     overflow: hidden;
     .copy-box-1 {
-
+      padding-top: 20px !important;
       background-color: rgba(10,37,65,.7) !important;
       left: 5% !important;
-      height: 310px !important;
+      height: 260px !important;
       top: 50px !important;
+      #mav-logo {display: block !important}
       h1 {
         font-size: 25px !important;
         color: #FFFFFF !important;
