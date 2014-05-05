@@ -85,8 +85,10 @@
   }
   #demo-ask {
     .container {
+      text-align: center;
       height: 100px;
       width: 100% !important;
+      margin-bottom: 100px;
       h2 {
         padding: 10px 0 0px 20px;
       }
@@ -96,7 +98,8 @@
         margin: 20px 0; 
       }
       span {
-        display: none;
+        margin-top: 40px !important;
+        font-size: 12px !important;
       }
     }
   }
@@ -161,8 +164,9 @@
   }
   #demo-ask {
     .container {
-      height: 125px;
+      height: 100px;
       width: 100% !important;
+      margin-bottom: 60px !important;
       h2 {
         padding-left: 20px;
       }

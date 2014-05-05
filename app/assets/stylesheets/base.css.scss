@@ -115,6 +115,7 @@ article {
       height: 100px;
     }
     a {
+      position: relative;
       display: inline-block;
       float: right;
       margin-top: 30px;
@@ -131,8 +132,10 @@ article {
       position: absolute;
       font-size: 10px;
       font-weight: bold;
-      top: 70px;
-      right: 332px;
+      margin-top: 30px;
+      margin-left: -174px;
+      color: gray;
+      width: 200px;
     }
   } 
 }
