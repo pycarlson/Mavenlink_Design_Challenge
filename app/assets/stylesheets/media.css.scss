@@ -130,15 +130,18 @@
   }
 
   section:first-of-type {
-    background: url('king2.jpg') no-repeat -560px -40px !important;
-    height: 320px !important;
+    background: url('king2.jpg') no-repeat -610px -30px !important;
+    height: 450px !important;
     overflow: hidden;
     .copy-box-1 {
+
+      background-color: rgba(10,37,65,.7) !important;
       left: 5% !important;
-      height: 210px !important;
+      height: 310px !important;
       top: 50px !important;
       h1 {
         font-size: 25px !important;
+        color: #FFFFFF !important;
         br {
           display: block !important;
         }
@@ -146,6 +149,7 @@
       p {
         font-size: 18px !important;
         line-height: 24px !important;
+        color: #FFFFFF !important;
       }
     }
   }
@@ -172,7 +176,7 @@
   }
   #demo-ask {
     .container {
-      height: 100px;
+      height: 120px;
       width: 100% !important;
       margin-bottom: 100px !important;
       text-align: center;
@@ -195,7 +199,7 @@
       margin: 0;
       padding-left: 0;
       li {
-        font-size: 80% !important;
+        font-size: 70% !important;
         margin-bottom: 10px !important;
       }
     }
