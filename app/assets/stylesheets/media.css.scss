@@ -140,7 +140,7 @@
   }
   #demo-ask {
     .container {
-      height: 200px;
+      height: 125px;
       width: 100% !important;
       h2 {
         padding-left: 20px;
@@ -154,9 +154,10 @@
   }
   footer {
     .span4 {
-      width: 100% !important;
+      width: 80% !important;
     }
     ul {
+      width: 80% !important;
       margin: 0;
       padding-left: 0;
       li {
