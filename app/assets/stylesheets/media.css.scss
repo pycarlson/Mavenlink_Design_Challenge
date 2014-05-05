@@ -3,6 +3,9 @@
   .lrg-nav {
     display: block !important;
   }
+  .sm-nav {
+      display: none !important;
+    }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -12,7 +15,6 @@
     margin: 0;
     .container {
       width: 100% !important;
-      
     }
   }
   .lrg-nav {
@@ -33,6 +35,9 @@
   ul.spacer {
     display: none !important;
   }
+  .sm-nav {
+      display: none !important;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -51,7 +56,6 @@
     padding: 8px !important;
     position: relative !important;
     height: 70px !important;
-
     .sm-nav {
       position: relative !important;
       clear: right !important;
@@ -122,7 +126,7 @@
     height: 320px !important;
     overflow: hidden;
     .copy-box-1 {
-      left: 8% !important;
+      left: 5% !important;
       top: 50px !important;
     }
   }
@@ -161,13 +165,14 @@
   }
   footer {
     .span4 {
-      width: 80% !important;
+      width: 100% !important;
     }
     ul {
-      width: 80% !important;
+      width: 100% !important;
       margin: 0;
       padding-left: 0;
       li {
+        font-size: 14px !important;
         margin-bottom: 10px !important;
       }
     }
