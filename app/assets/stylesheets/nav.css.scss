@@ -14,10 +14,13 @@ nav {
     width: 960px;
     margin: 0 auto;
     font-size: 18px;
-    img {
+    #nav-mav-logo {
+      width: 230px;
+      height: 45px;
+      background: url('main.png') no-repeat 0 -2358px;
+      overflow: hidden;
       float: left;
-      margin-right: 196px;
-      margin-left: -46px;
+      margin: 5px 237px 0 -10px;
       display: inline-block;
     }
     ul {
@@ -37,7 +40,7 @@ nav {
         margin-right: 48px;
       }
       li:nth-of-type(4) {
-        margin-right: 30px;
+        margin-right: 26px;
       }
       li:nth-of-type(5) {
         margin-right: 0;
