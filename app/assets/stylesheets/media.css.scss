@@ -17,6 +17,9 @@
       width: 100% !important;
     }
   }
+  section:first-of-type {
+    background: url('king3.jpg') no-repeat -300px 0 !important;
+  }
   .lrg-nav {
     display: block !important;
     img {
@@ -49,7 +52,7 @@
       width: 100% !important;
     }
   }
-  article section:first-of-type {
+  section:first-of-type {
     margin-top: 0 !important;
     background: url('king3.jpg') no-repeat -400px 0 !important;
   }
@@ -123,7 +126,10 @@
       margin: 0 auto !important;
     }
   }
+ 
   section:first-of-type {
+    background: url('king3.jpg') no-repeat -560px -40px !important;
+
     height: 320px !important;
     overflow: hidden;
     .copy-box-1 {
