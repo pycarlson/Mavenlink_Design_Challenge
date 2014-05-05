@@ -8,19 +8,26 @@
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 750px) and (max-width: 959px) { 
   body { 
-    font-size:110%;
+    font-size:120%;
     margin: 0;
     .container {
       width: 100% !important;
-      .lrg-nav {
-        display: block !important;
-        img {
-          margin-right: 30px;
-        }
-        li {
-          margin-right: 30px !important;
-        }
-      }
+      
+    }
+  }
+  .lrg-nav {
+    display: block !important;
+    img {
+      margin-right: 80px !important;
+    }
+    li {
+      margin-right: 30px !important;
+    }
+  }
+  .outer-nav {
+    height: 130px !important;
+    figure {
+      width: 100px !important;
     }
   }
   ul.spacer {
@@ -55,10 +62,10 @@
         padding: 0 !important;
         a {
           text-align: center !important;
-        li {
-          margin-left: 10px !important;
+          li {
+            margin-left: 10px !important;
+          }
         }
-      }
       }
     }
 
@@ -68,8 +75,8 @@
   }
 
   .outer-nav {
-      display: none !important;
-    }
+    display: none !important;
+  }
   #demo-ask {
     .container {
       height: 100px;
