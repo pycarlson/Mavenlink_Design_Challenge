@@ -5,18 +5,17 @@ $(document).ready(function () {
   Slider.checkBrowserWidth();
   setInterval(function () {
     Slider.nextSlide()
-  }, 4000);
+  }, 5000);
 });
 
 Slider.nextSlide = function () {
-  
   var $activeSlide = $('.carousel-inner li.active');
   Slider.inactivateSlides();
-  $activeSlide.next().fadeIn('fast').addClass('active');
+  $activeSlide.next().addClass('active');
 
   if ($activeSlide.index() === $('.carousel-inner li').length - 1) {
     Slider.inactivateSlides();
-    $('.carousel-inner li').first().fadeIn('fast').addClass('active');
+    $('.carousel-inner li').first().addClass('active');
   };
 }
 
