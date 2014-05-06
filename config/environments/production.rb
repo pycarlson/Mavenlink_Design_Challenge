@@ -27,8 +27,11 @@ Mavenlink::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.precompile += %w[html5shiv.js]
+  config.assets.precompile += %w(
+    html5shiv.js
+    ie.css)
   config.assets.compile = true
+
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
   # Generate digests for assets URLs.
