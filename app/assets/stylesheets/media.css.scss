@@ -32,7 +32,7 @@
       width: 100px !important;
     }
   }
-  section:first-of-type {
+  .landing-groomers.hero-section {
     background: url('king3.jpg') no-repeat -300px 0 !important;
   }
   ul.spacer {
@@ -52,7 +52,7 @@
       width: 100% !important;
     }
   }
-  nav {
+  .nav {
     position: relative !important;
     height: 70px !important;
     .sm-nav {
@@ -77,7 +77,7 @@
   .outer-nav {
     display: none !important;
   }
-  section:first-of-type {
+  .landing-groomers.hero-section {
     margin-top: 0 !important;
     background: url('king3.jpg') no-repeat -400px 0 !important;
   }
@@ -125,7 +125,7 @@
     }
   }
 
-  section:first-of-type {
+  .landing-groomers.hero-section {
     background: url('king2.jpg') no-repeat -675px -30px !important;
     height: 450px !important;
     overflow: hidden;
