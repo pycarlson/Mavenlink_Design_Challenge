@@ -32,8 +32,8 @@
       width: 100px !important;
     }
   }
-  .landing-groomers.hero-section {
-    background: url('king3.jpg') no-repeat -300px 0 !important;
+  .hero-section {
+    background: url('king3.jpg') no-repeat -340px 0 !important;
   }
   ul.spacer {
     display: none !important;
@@ -125,7 +125,7 @@
     }
   }
 
-  .landing-groomers.hero-section {
+  .hero-section {
     background: url('king2.jpg') no-repeat -675px -30px !important;
     height: 450px !important;
     overflow: hidden;
@@ -135,13 +135,12 @@
       left: 5% !important;
       height: 260px !important;
       top: 50px !important;
-      #mav-logo {display: block !important}
+      #nav-mav-logo {
+        display: block !important
+      }
       h1 {
         font-size: 25px !important;
         color: #FFFFFF !important;
-        br {
-          display: block !important;
-        }
       }
       p {
         font-size: 18px !important;
@@ -149,6 +148,9 @@
         color: #FFFFFF !important;
       }
     }
+  }
+  .add-for-phone {
+    display: block !important;
   }
   #product-carousel {
     width: 300px !important;

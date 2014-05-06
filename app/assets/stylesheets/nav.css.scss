@@ -2,14 +2,14 @@
   position: fixed;
   top: 0;
   z-index: 11111;
-  overflow: hidden;
+  overflow: visible;
   height: 80px;
   padding: 5px 0;
   width: 100%;
   background-color: #0A2541;
   color: #FFFFFF;
   .inner-nav {
-    display: block;
+    display: none;
     padding: 10px 0;
     width: 960px;
     margin: 0 auto;
@@ -56,21 +56,28 @@
 }
 
 .sm-nav {
-  display: none;
   position: absolute;
   background-color: #0A2541;
   z-index: 11111;
+  height: 330px;
+
   img {
     display: block;
   }
   ul {
     margin: 0;
+
+    li {
+      text-align: center;
+    }
     a {
       display: block;
       width: 100%;
       background-color: #ffffff;
-      height: 40px;
+      height: 35px;
       margin-bottom: 10px;
+      padding: 10px;
+      font-size: 20px;
     }
   }
 }
