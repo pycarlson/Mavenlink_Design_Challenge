@@ -1,0 +1,827 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* line 1, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/carousel.css.scss */
+#doggy-carousel {
+  position: absolute;
+  height: 250px;
+  position: relative;
+  width: 480px;
+}
+/* line 6, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/carousel.css.scss */
+#doggy-carousel ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/carousel.css.scss */
+.carousel-inner {
+  width: 480px;
+  height: 250px;
+  position: relative;
+  overflow: visible;
+}
+
+/* line 19, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/carousel.css.scss */
+.carousel-inner li {
+  display: none !important;
+  position: absolute;
+}
+
+/* line 24, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/carousel.css.scss */
+.carousel-inner .active {
+  display: block !important;
+}
+
+/* line 28, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/carousel.css.scss */
+.mobile-add {
+  display: none;
+}
+/* line 1, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 0 30px 0;
+  background-color: #333333;
+  color: #FFFFFF;
+}
+/* line 7, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot {
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 960px;
+}
+/* line 11, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot h4 {
+  margin-bottom: 10px;
+}
+/* line 14, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot h3:nth-of-type(3) {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 18, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot .spacer {
+  width: 160px;
+  height: 160px;
+  display: inline-block;
+}
+/* line 23, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot ul {
+  float: left;
+  width: 300px;
+  padding-left: 0;
+}
+/* line 27, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot ul:last-of-type {
+  width: 200px;
+}
+/* line 30, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot ul li {
+  list-style: none;
+}
+/* line 32, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot ul li a {
+  color: #bcb8b8;
+  text-decoration: none;
+}
+/* line 36, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot ul li ul li {
+  display: inline-block;
+  margin-top: 20px;
+}
+/* line 41, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .inner-foot ul span {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* line 47, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer .social-icons {
+  width: 27px;
+  height: 27px;
+  margin-right: 5px;
+  display: inline-block;
+}
+/* line 53, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer #phone {
+  background: url("main.png") no-repeat 0 -3245px;
+  height: 20px;
+  width: 29px;
+  float: left;
+  margin-top: 4px;
+}
+/* line 60, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer #i-facebook {
+  background: url("main.png") no-repeat 0 -3218px;
+}
+/* line 63, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer #i-twitter {
+  background: url("main.png") no-repeat 0 -2946px;
+}
+/* line 66, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer #i-linkedin {
+  background: url("main.png") no-repeat 0 -3007px;
+}
+/* line 69, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/footer.css.scss */
+footer #i-google-plus {
+  background: url("google-icon.png") no-repeat 0 0;
+}
+/* line 1, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+html {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 10, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+body {
+  margin: 0;
+  font-size: 100%;
+  line-height: 1.6875;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 15, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+body .container {
+  font-weight: 300;
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 22, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 25, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers .hero-section {
+  position: relative;
+  background: url("king2.jpg") center no-repeat;
+  margin: 0;
+  width: 100%;
+  height: 523px;
+  margin-top: 180px;
+}
+/* line 32, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers .hero-section .hero-copy-box {
+  position: absolute;
+  padding: 0 20px 20px 20px;
+  z-index: 111;
+  top: 150px;
+  left: 20%;
+  width: 395px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 41, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers .hero-section .hero-copy-box #nav-mav-logo {
+  display: none;
+  width: 230px;
+  height: 45px;
+  background: url("main.png") no-repeat 0 -2358px;
+  overflow: hidden;
+}
+/* line 49, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers .hero-section .hero-copy-box hgroup h1 {
+  font-size: 26px;
+  line-height: 35px;
+  margin: 15px 0 10px 0;
+  color: #5392C9;
+  font-weight: bold;
+}
+/* line 56, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers .hero-section .hero-copy-box hgroup p {
+  color: #4F4F4F;
+  font-size: 24px;
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 33px;
+}
+/* line 67, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box {
+  padding: 0px;
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 71, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box #product-carousel {
+  margin: 0 auto;
+  width: 480px;
+  height: 250px;
+  overflow: hidden;
+}
+/* line 77, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box div:nth-of-type(2) {
+  padding-top: 40px;
+}
+/* line 79, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box div:nth-of-type(2) ul {
+  display: inline-block;
+  padding: 0;
+  margin-top: 0;
+}
+/* line 84, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box div:nth-of-type(2) img {
+  float: right;
+  margin: 0 30px 40px 0;
+  width: 350px;
+}
+/* line 89, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box div:nth-of-type(2) li {
+  margin-left: 20px;
+}
+/* line 91, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box div:nth-of-type(2) li:first-of-type {
+  list-style: none;
+  margin-left: 0px;
+}
+/* line 96, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #middle-box div:nth-of-type(2) h1 {
+  margin-top: 0;
+  padding: 0;
+}
+/* line 103, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #demo-ask {
+  position: relative;
+  clear: right;
+  background-color: #F1F1F1;
+  width: 100%;
+  color: #4F4F4F;
+}
+/* line 109, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #demo-ask h2 {
+  display: inline-block;
+  padding: 30px 0 30px 0;
+  font-weight: 300;
+  margin: 0;
+}
+/* line 115, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #demo-ask div {
+  margin: 0 auto;
+  width: 960px;
+  height: 100px;
+}
+/* line 120, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #demo-ask a {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin: 30px 40px 0 0;
+  text-align: center;
+  padding-top: 5px;
+  width: 180px;
+  height: 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 134, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.landing-groomers #demo-ask span {
+  position: absolute;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: -174px;
+  color: gray;
+  width: 200px;
+}
+
+/* line 146, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.btn-small {
+  width: 80px;
+  height: 32px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* line 154, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.btn-white {
+  background-color: #FFFFFF;
+  color: #444444;
+}
+/* line 157, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.btn-white:hover {
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.72) 0%, white 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.72)), color-stop(100%, white));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.72) 0%, white 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.72) 0%, white 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.72) 0%, white 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.72) 0%, white 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8ffffff', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 168, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.btn-green {
+  color: #FFFFFF;
+  background: -moz-linear-gradient(top, rgba(122, 172, 72, 0.7) 0%, #7aac48 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(122, 172, 72, 0.7)), color-stop(100%, #7aac48));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(122, 172, 72, 0.7) 0%, #7aac48 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(122, 172, 72, 0.7) 0%, #7aac48 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(122, 172, 72, 0.7) 0%, #7aac48 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(122, 172, 72, 0.7) 0%, #7aac48 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b37aac48', endColorstr='#7aac48',GradientType=0 );
+  /* IE6-9 */
+}
+/* line 177, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/main.css.scss */
+.btn-green:hover {
+  background: -moz-linear-gradient(top, rgba(122, 172, 72, 0.37) 0%, #7aac48 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(122, 172, 72, 0.37)), color-stop(100%, #7aac48));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(122, 172, 72, 0.37) 0%, #7aac48 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(122, 172, 72, 0.37) 0%, #7aac48 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(122, 172, 72, 0.37) 0%, #7aac48 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(122, 172, 72, 0.37) 0%, #7aac48 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5e7aac48', endColorstr='#7aac48',GradientType=0 );
+  /* IE6-9 */
+}
+/* Large desktop */
+@media (min-width: 960px) {
+  /* line 4, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .lrg-nav {
+    display: block !important;
+  }
+
+  /* line 7, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .sm-nav {
+    display: none !important;
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 767px) and (max-width: 959px) {
+  /* line 14, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  body {
+    font-size: 120%;
+    margin: 0;
+  }
+  /* line 17, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  body .container {
+    width: 100% !important;
+  }
+
+  /* line 21, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .lrg-nav {
+    display: block !important;
+    width: 780px !important;
+  }
+  /* line 24, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .lrg-nav #quick-contact {
+    padding-right: 30px;
+  }
+  /* line 27, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .lrg-nav #nav-mav-logo {
+    margin: 5px 80px 0 10px !important;
+  }
+  /* line 30, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .lrg-nav li {
+    margin-right: 30px !important;
+  }
+
+  /* line 34, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .outer-nav {
+    height: 130px !important;
+  }
+  /* line 36, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .outer-nav figure {
+    width: 100px !important;
+  }
+
+  /* line 40, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section {
+    background: url("king3.jpg") no-repeat -340px 0 !important;
+  }
+  /* line 42, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section .hero-copy-box {
+    height: 210px !important;
+  }
+
+  /* line 46, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  ul.spacer {
+    display: none !important;
+  }
+
+  /* line 49, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .sm-nav {
+    display: none !important;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /* line 57, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  body {
+    font-size: 110%;
+    margin: 0;
+  }
+  /* line 60, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  body .container {
+    width: 100% !important;
+  }
+
+  /* line 64, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .nav {
+    position: relative !important;
+    height: 70px !important;
+    overflow: visible !important;
+  }
+  /* line 68, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .nav .inner-nav {
+    width: 100% !important;
+    position: relative !important;
+    clear: right !important;
+    padding: 0px !important;
+  }
+  /* line 73, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .nav .inner-nav ul {
+    padding: 0 !important;
+  }
+  /* line 75, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .nav .inner-nav ul a {
+    text-align: center !important;
+  }
+  /* line 77, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .nav .inner-nav ul a li {
+    margin-left: 10px !important;
+  }
+  /* line 83, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .nav #nav-icon {
+    display: block !important;
+  }
+
+  /* line 87, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .outer-nav {
+    display: none !important;
+  }
+
+  /* line 90, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section {
+    margin-top: 0 !important;
+    background: url("king3.jpg") no-repeat -400px 0 !important;
+  }
+
+  /* line 94, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-copy-box {
+    height: 210px !important;
+  }
+
+  /* line 98, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #demo-ask .container {
+    text-align: center;
+    height: 100px;
+    width: 100% !important;
+    margin-bottom: 100px;
+  }
+  /* line 103, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #demo-ask .container h2 {
+    padding: 10px 0 0px 20px;
+  }
+  /* line 106, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #demo-ask .container a {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+  }
+  /* line 111, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #demo-ask .container span {
+    margin-top: 40px !important;
+    font-size: 12px !important;
+  }
+
+  /* line 117, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  ul.spacer {
+    display: none !important;
+  }
+
+  /* line 121, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  footer ul {
+    width: 260px !important;
+  }
+  /* line 123, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  footer ul:last-of-type {
+    width: 100% !important;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /* line 132, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  body {
+    font-size: 100%;
+    margin: 0;
+  }
+  /* line 135, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  body .container {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  /* line 140, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .add-for-phone {
+    display: block !important;
+  }
+
+  /* line 143, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section {
+    background: url("king2.jpg") no-repeat -10px 0px !important;
+    height: 400px !important;
+    overflow: hidden;
+  }
+  /* line 147, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section .hero-copy-box {
+    padding-top: 20px !important;
+    background-color: rgba(10, 37, 65, 0.7) !important;
+    left: 5% !important;
+    height: 260px !important;
+    top: 50px !important;
+  }
+  /* line 153, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section .hero-copy-box #nav-mav-logo {
+    display: block !important;
+  }
+  /* line 156, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section .hero-copy-box h1 {
+    font-size: 25px !important;
+    color: #FFFFFF !important;
+  }
+  /* line 160, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  .hero-section .hero-copy-box p {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    color: #FFFFFF !important;
+  }
+
+  /* line 168, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #product-carousel {
+    width: 300px !important;
+    height: 400px !important;
+  }
+  /* line 172, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #product-carousel #doggy-carousel .mobile-add {
+    visibility: visible;
+  }
+  /* line 175, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #product-carousel #doggy-carousel .mobile-remove {
+    display: none !important;
+  }
+  /* line 178, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #product-carousel #doggy-carousel .mobile-remove:active {
+    display: block !important;
+  }
+
+  /* line 183, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #middle-box div:nth-of-type(2) {
+    width: 100% !important;
+    padding-top: 40px !important;
+  }
+
+  /* line 187, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #cucumber-dog {
+    margin: 0 auto;
+    width: 100% !important;
+    display: block !important;
+    text-align: center !important;
+    padding-left: 15px !important;
+  }
+
+  /* line 194, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #cucumber-dog img {
+    margin: 0 !important;
+  }
+
+  /* line 198, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #demo-ask .container {
+    height: 120px;
+    width: 100% !important;
+    margin-bottom: 100px !important;
+    text-align: center;
+  }
+  /* line 203, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #demo-ask .container h2 {
+    padding-left: 0px !important;
+  }
+  /* line 206, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  #demo-ask .container a {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  /* line 214, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  footer .social-icons {
+    margin-right: 20px !important;
+  }
+  /* line 217, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  footer .span4 {
+    width: 100% !important;
+  }
+  /* line 220, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  footer ul {
+    width: 100% !important;
+    margin: 0;
+    padding-left: 0;
+  }
+  /* line 224, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/media_queries.css.scss */
+  footer ul li {
+    font-size: 75% !important;
+    margin-bottom: 10px !important;
+  }
+}
+/* line 1, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 11111;
+  overflow: visible;
+  height: 90px;
+  padding: 5px 0;
+  width: 100%;
+  background-color: #0A2541;
+  color: #FFFFFF;
+}
+/* line 11, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav {
+  display: none;
+  padding: 10px 0;
+  width: 960px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+/* line 17, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav #quick-contact {
+  float: right;
+  font-size: 14px;
+  margin-top: -12px;
+}
+/* line 22, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav #nav-mav-logo {
+  width: 230px;
+  height: 45px;
+  background: url("main.png") no-repeat 0 -2358px;
+  overflow: hidden;
+  float: left;
+  margin: 5px 237px 0 -10px;
+  display: inline-block;
+}
+/* line 31, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 14px;
+}
+/* line 35, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav ul li {
+  float: left;
+  margin-right: 60px;
+  display: inline-block;
+}
+/* line 39, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 44, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav ul li:nth-of-type(3) {
+  margin-right: 48px;
+}
+/* line 47, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav ul li:nth-of-type(4) {
+  margin-right: 26px;
+}
+/* line 50, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.nav .inner-nav ul li:nth-of-type(5) {
+  margin-right: 0;
+}
+
+/* line 57, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+#nav-icon {
+  display: none;
+  padding: 10px;
+  float: right;
+}
+
+/* line 63, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.sm-nav {
+  position: absolute;
+  background-color: #0A2541;
+  z-index: 11111;
+  height: 330px;
+}
+/* line 69, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.sm-nav img {
+  display: block;
+}
+/* line 72, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.sm-nav ul {
+  margin: 0;
+}
+/* line 75, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.sm-nav ul li {
+  text-align: center;
+}
+/* line 78, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.sm-nav ul a {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  height: 35px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* line 90, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.outer-nav {
+  position: fixed;
+  z-index: 11111;
+  top: 90px;
+  height: 110px;
+  width: 100%;
+  background-color: #EBEBEB;
+}
+/* line 97, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.outer-nav .container {
+  width: 1000px;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+/* line 102, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.outer-nav .container figure {
+  text-align: center;
+  width: 140px;
+  display: inline-block;
+  margin: 0 20px;
+  line-height: 20px;
+}
+/* line 108, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.outer-nav .container figure a {
+  text-decoration: none;
+  color: #0A2541;
+}
+/* line 112, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.outer-nav .container figure i {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  background: url("main.png") no-repeat;
+}
+/* line 119, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+.outer-nav .container figure figcaption {
+  font-weight: 400;
+}
+
+/* line 125, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+#advan-man {
+  background-position: 0 -2512px;
+}
+
+/* line 129, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+#finan-man {
+  background-position: 0 -2398px;
+}
+
+/* line 133, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+#time-man {
+  background-position: 0 -2238px;
+}
+
+/* line 137, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+#res-man {
+  background-position: 0 -1556px;
+}
+
+/* line 141, /Users/paulette/Desktop/mavenlink/app/assets/stylesheets/nav.css.scss */
+#anal-man {
+  background-position: 0 -1889px;
+}
