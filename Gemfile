@@ -15,8 +15,7 @@ gem 'pony'
 gem 'jquery-ui-rails'
 gem "combined_time_select", "~> 1.0.1"
 gem 'wysihtml5-rails'
-
-# gem 'protected_attributes'
+gem 'html5shiv-js-rails', '~> 3.7.0'
 
 group :development do
   gem 'sqlite3'
