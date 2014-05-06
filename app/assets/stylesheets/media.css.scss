@@ -39,7 +39,7 @@
   .hero-section {
     background: url('king3.jpg') no-repeat -340px 0 !important;
     .hero-copy-box {
-      height: 230px !important;
+      height: 250px !important;
     }
   }
   ul.spacer {
@@ -182,9 +182,10 @@
   }
   #middle-box div:nth-of-type(2) {
     padding-top: 40px !important;
+    padding-left: 20px;
   }
   #middle-box div:nth-of-type(2) img {
-    margin: 0 0 30px 20px !important;
+    /*margin: 0 0 30px 20px !important;*/
   }
   #demo-ask {
     .container {
