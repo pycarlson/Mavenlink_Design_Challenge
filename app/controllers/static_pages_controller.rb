@@ -1,4 +1,4 @@
 class StaticPagesController < ApplicationController
-  def home
+  def landing_groomers
   end
 end
