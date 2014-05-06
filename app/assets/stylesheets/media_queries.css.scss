@@ -48,6 +48,7 @@
   .sm-nav {
     display: none !important;
   }
+  
 }
 
 /* Landscape phone to portrait tablet */
@@ -90,8 +91,8 @@
     background: url('king3.jpg') no-repeat -400px 0 !important;
   }
   .hero-copy-box {
-      height: 210px !important;
-    }
+    height: 210px !important;
+  }
   #demo-ask {
     .container {
       text-align: center;
@@ -126,7 +127,7 @@
 }
 
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 520px) { 
   body { 
     font-size:100%;
     margin: 0;

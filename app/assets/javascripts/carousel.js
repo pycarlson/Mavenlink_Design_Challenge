@@ -24,7 +24,7 @@ Slider.inactivateSlides = function () {
 }
 
 Slider.checkBrowserWidth = function () {
-  if ($(window).width() < 480) {
+  if ($(window).width() < 520) {
     $('#large-carousel').replaceWith($('#phone-carousel').show());
   } else {
     $('#phone-carousel').remove();
