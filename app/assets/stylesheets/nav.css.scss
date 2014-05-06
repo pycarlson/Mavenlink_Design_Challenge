@@ -1,17 +1,15 @@
 .nav {
-  /*position: fixed;
+  position: fixed;
   top: 0;
-  z-index: 111;
-  overflow: hidden;*/
-  position: absolute;
-  top: 0;
+  z-index: 11111;
+  overflow: hidden;
   height: 80px;
   padding: 5px 0;
   width: 100%;
   background-color: #0A2541;
   color: #FFFFFF;
   .inner-nav {
-    display: none;
+    display: block;
     padding: 10px 0;
     width: 960px;
     margin: 0 auto;
@@ -58,6 +56,7 @@
 }
 
 .sm-nav {
+  display: none;
   position: absolute;
   background-color: #0A2541;
   z-index: 11111;
