@@ -31,7 +31,10 @@ footer {
           color: #bcb8b8;
           text-decoration: none;
         }
-
+        ul li {
+          display: inline-block;
+          margin-top: 20px;
+        }
       } 
       span {
         font-weight: bold;
@@ -39,5 +42,31 @@ footer {
       }
     }
   }
+  .social-icons {
+    width: 27px;
+    height: 27px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  #phone {
+    background: url('main.png') no-repeat 0 -3245px;
+    height: 20px;
+    width: 29px;
+    float: left;
+    margin-top: 4px;
+  }
+  #i-facebook {
+    background: url('main.png') no-repeat 0 -3218px;
+  }
+  #i-twitter {
+    background: url('main.png') no-repeat 0 -2946px;
+  }
+  #i-linkedin {
+    background: url('main.png') no-repeat 0 -3007px;
+  }
+  #i-google-plus {
+    background: url('google-icon.png') no-repeat 0 0;
+  }
+
 }
 
