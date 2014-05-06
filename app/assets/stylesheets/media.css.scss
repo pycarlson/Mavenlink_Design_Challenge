@@ -34,6 +34,9 @@
   }
   .hero-section {
     background: url('king3.jpg') no-repeat -340px 0 !important;
+    .copy-box-1 {
+      height: 230px !important;
+    }
   }
   ul.spacer {
     display: none !important;
@@ -80,6 +83,9 @@
   .hero-section {
     margin-top: 0 !important;
     background: url('king3.jpg') no-repeat -400px 0 !important;
+    .copy-box-1 {
+      height: 230px !important;
+    }
   }
   #demo-ask {
     .container {

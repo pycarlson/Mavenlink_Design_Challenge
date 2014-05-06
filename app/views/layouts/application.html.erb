@@ -2,10 +2,18 @@
 <html>
 <head>
   <title>Mavenlink</title>
+  
   <!--[if lt IE 9]>
+  <%= stylesheet_link_tag "ie" %>
   <%= javascript_include_tag 'html5shiv' %>
-  <%= javascript_include_tag 'ie' %>
   <![endif]-->
+  
+  <%= stylesheet_link_tag "base" %>
+  <%= stylesheet_link_tag "carousel" %>
+  <%= stylesheet_link_tag "nav" %>
+  <%= stylesheet_link_tag "footer" %>
+  <%= stylesheet_link_tag "media" %>
+
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
