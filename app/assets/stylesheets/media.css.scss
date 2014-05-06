@@ -39,7 +39,7 @@
   .hero-section {
     background: url('king3.jpg') no-repeat -340px 0 !important;
     .hero-copy-box {
-      height: 250px !important;
+      height: 210px !important;
     }
   }
   ul.spacer {
@@ -90,7 +90,7 @@
     background: url('king3.jpg') no-repeat -400px 0 !important;
   }
   .hero-copy-box {
-      height: 230px !important;
+      height: 210px !important;
     }
   #demo-ask {
     .container {
@@ -159,7 +159,9 @@
       }
     }
   }
-
+  .add-for-phone {
+    display: block !important;
+  }
   #product-carousel {
     width: 300px !important;
     height: 400px !important;
@@ -178,6 +180,7 @@
   #middle-box div:nth-of-type(2) {
     padding-top: 40px !important;
     padding-left: 20px;
+    text-align: center !important;
   }
   #demo-ask {
     .container {
@@ -196,6 +199,9 @@
     }
   }
   footer {
+    .social-icons {
+      margin-right: 20px !important;
+    }
     .span4 {
       width: 100% !important;
     }
