@@ -37,10 +37,13 @@ function doOnOrientationChange()
   {  
     case -90:
     case 90:
-    alert('landscape');
+    //landscape
+    $('#phone-carousel').remove();
+    $('#phone-carousel').replaceWith($('#large-carousel').show());
     break; 
     default:
-    alert('portrait');
+    $('#large-carousel').remove();
+    $('#large-carousel').replaceWith($('#phone-carousel').show());
     break; 
   }
 }
