@@ -30,3 +30,22 @@ Slider.checkBrowserWidth = function () {
     $('#phone-carousel').remove();
   }
 }
+
+function doOnOrientationChange()
+{
+  switch(window.orientation) 
+  {  
+    case -90:
+    case 90:
+    alert('landscape');
+    break; 
+    default:
+    alert('portrait');
+    break; 
+  }
+}
+
+window.addEventListener('orientationchange', doOnOrientationChange);
+
+doOnOrientationChange();
+
