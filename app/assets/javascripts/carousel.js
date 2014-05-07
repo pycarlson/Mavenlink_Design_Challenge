@@ -2,7 +2,7 @@ var Slider = {
 };
 
 $(document).ready(function () {
-  Slider.checkBrowserWidth();
+  // Slider.checkBrowserWidth();
   setInterval(function () {
     Slider.nextSlide()
   }, 5000);
@@ -23,10 +23,10 @@ Slider.inactivateSlides = function () {
   $('.carousel-inner li').removeClass('active');
 }
 
-Slider.checkBrowserWidth = function () {
-  if ($(window).width() < 480) {
-    $('#large-carousel').replaceWith($('#phone-carousel').show());
-  } else {
-    $('#phone-carousel').remove();
-  }
-}
+// Slider.checkBrowserWidth = function () {
+//   if ($(window).width() < 480) {
+//     $('#large-carousel').replaceWith($('#phone-carousel').show());
+//   } else {
+//     $('#phone-carousel').remove();
+//   }
+// }

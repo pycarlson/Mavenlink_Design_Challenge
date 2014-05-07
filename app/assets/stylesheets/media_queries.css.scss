@@ -168,15 +168,22 @@
     width: 300px !important;
     height: 400px !important;
     #doggy-carousel {
-      .mobile-add {
-        visibility: visible;
+      #large-carousel {
+        display: none !important;
       }
-      .mobile-remove {
+      #phone-carousel {
+        display: block !important;
+      }
+      /*.mobile-add {
+        visibility: visible;
+      }*/
+
+      /*.mobile-remove {
         display: none !important ;
       }
       .mobile-remove:active {
         display: block !important ;
-      }
+      }*/
     }
   }
   #middle-box div:nth-of-type(2) {
