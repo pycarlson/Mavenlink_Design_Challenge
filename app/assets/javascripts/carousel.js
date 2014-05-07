@@ -33,20 +33,18 @@ Slider.checkBrowserWidth = function () {
 
 function doOnOrientationChange () {
   if ($(window).width() < 600) {
-  switch(window.orientation) 
-  {  
-    case -90:
-    case 90:
-
-    $('#product-carousel').css('height', '400px').css('width', '300px');
-    break; 
-    default:
-    break; 
+    switch(window.orientation) 
+    {  
+      case -90:
+      case 90:
+      $('#product-carousel').css('height', '400px').css('width', '300px');
+      break; 
+      default:
+      break; 
+    }
   }
-}
 }
 
 window.addEventListener('orientationchange', doOnOrientationChange);
-
 doOnOrientationChange();
 
