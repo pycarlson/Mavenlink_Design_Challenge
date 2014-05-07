@@ -31,18 +31,14 @@ Slider.checkBrowserWidth = function () {
   }
 }
 
-function doOnOrientationChange()
-{
-  switch(window.orientation) 
-  {  
+function doOnOrientationChange () {
+  switch(window.orientation) {  
     case -90:
     case 90:
     //landscape
-    $('#phone-carousel').remove();
     $('#phone-carousel').replaceWith($('#large-carousel').show());
     break; 
     default:
-    $('#large-carousel').remove();
     $('#large-carousel').replaceWith($('#phone-carousel').show());
     break; 
   }
