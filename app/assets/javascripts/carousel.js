@@ -37,10 +37,9 @@ function doOnOrientationChange()
     {  
       case -90:
       case 90:
-        $('body').css('background-color', 'red');
+        $('#product-carousel').css('height', '400px').css('width', '300px');
         break; 
       default:
-        $('body').css('background-color', 'gray');
         break; 
     }
   }
