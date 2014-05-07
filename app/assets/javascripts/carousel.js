@@ -24,7 +24,7 @@ Slider.inactivateSlides = function () {
 }
 
 Slider.checkBrowserWidth = function () {
-  if ($(window).width() < 480) {
+  if ($(window).width() < 568) {
     $('#large-carousel').replaceWith($('#phone-carousel').show());
   } else {
     $('#phone-carousel').remove();
@@ -37,9 +37,8 @@ function doOnOrientationChange()
     {  
       case -90:
       case 90:
-      if ($(window).width() < 480) {
+      
         $('#product-carousel').css('height', '400px').css('width', '300px');
-      };
         break; 
       default:
         break; 
