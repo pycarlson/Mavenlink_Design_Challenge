@@ -32,7 +32,7 @@ Slider.checkBrowserWidth = function () {
 }
 
 function doOnOrientationChange () {
-  if ($(window).width() < 560) {
+  if ($(window).width() < 600) {
   switch(window.orientation) 
   {  
     case -90:
