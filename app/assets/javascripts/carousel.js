@@ -31,21 +31,20 @@ Slider.checkBrowserWidth = function () {
   }
 }
 
-function doOnOrientationChange()
-  {
-    switch(window.orientation < 480) 
-    {  
-      case -90:
-      case 90:
-      
-        $('#product-carousel').css('height', '400px').css('width', '300px');
-        break; 
-      default:
-        break; 
-    }
+function doOnOrientationChange () {
+  switch(window.orientation) 
+  {  
+    case -90 && $(window).width() < 480:
+    case 90 && $(window).width() < 480:
+
+    $('#product-carousel').css('height', '400px').css('width', '300px');
+    break; 
+    default:
+    break; 
   }
+}
 
-  window.addEventListener('orientationchange', doOnOrientationChange);
+window.addEventListener('orientationchange', doOnOrientationChange);
 
-  doOnOrientationChange();
+doOnOrientationChange();
 
