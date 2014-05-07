@@ -37,7 +37,9 @@ function doOnOrientationChange()
     {  
       case -90:
       case 90:
+      if ($(window).width() < 480) {
         $('#product-carousel').css('height', '400px').css('width', '300px');
+      };
         break; 
       default:
         break; 
