@@ -34,8 +34,8 @@ Slider.checkBrowserWidth = function () {
 function doOnOrientationChange () {
   switch(window.orientation) 
   {  
-    case -90 && $(window).width() < 480:
-    case 90 && $(window).width() < 480:
+    case -90:
+    case 90:
 
     $('#product-carousel').css('height', '400px').css('width', '300px');
     break; 
